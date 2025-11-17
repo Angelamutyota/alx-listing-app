@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@theme {
+  /* Your old theme.extend goes here if needed, e.g.: */
+  /* --color-primary: #your-color; */
+}
+
+/* Or for content scanning (if not using defaults): */
+@source "./pages/**/*.{ts,tsx}";
+@source "./components/**/*.{js,ts,jsx,tsx}";
